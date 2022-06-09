@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3594b3e70b3f31548a769e6970349db3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Amigdala
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 717e482682821fc4ba6cd0fcdbed24d9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
