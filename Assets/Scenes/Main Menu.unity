@@ -266,17 +266,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2866062167109580794, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
   m_PrefabInstance: {fileID: 2866062166770334816}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &340298651 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2866062167109580796, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
-  m_PrefabInstance: {fileID: 2866062166770334816}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340298649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df5fc9963d8a9db409603ca20e8ef39d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &630506657
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &630506658
 RectTransform:
   m_ObjectHideFlags: 0
@@ -361,10 +350,10 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 340298651}
-        m_TargetAssemblyTypeName: MenuItemsScript, Assembly-CSharp
-        m_MethodName: ToggleCredits
-        m_Mode: 0
+      - m_Target: {fileID: 1864635557}
+        m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
+        m_MethodName: CreditsAnimations
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2100,7 +2089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 421452772551602072, guid: e006873a9f0e0244ba024e687fee4819, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 421452772551602074, guid: e006873a9f0e0244ba024e687fee4819, type: 3}
       propertyPath: m_RootOrder
@@ -2282,7 +2271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2866062167286749929, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4291333420
+      value: 4280229663
       objectReference: {fileID: 0}
     - target: {fileID: 2866062167435417691, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
       propertyPath: m_fontColor.b
@@ -2299,6 +2288,10 @@ PrefabInstance:
     - target: {fileID: 2866062167435417691, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4291333420
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866062167550235972, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -80
       objectReference: {fileID: 0}
     - target: {fileID: 2866062167550235973, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2377,6 +2370,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2866062168271915907, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1864635557}
+    - target: {fileID: 2866062168271915907, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1366340084}
@@ -2385,8 +2382,16 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2866062168271915907, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CreditsAnimations
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866062168271915907, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: playSelectedSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866062168271915907, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuScript, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2866062168271915907, guid: c7fb5918c242aa543834748a11bf4850, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
